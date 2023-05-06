@@ -180,6 +180,11 @@ button {
   background-color: var(--hover-state-color);
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /* The second section */
 
 .visually-hidden {
@@ -193,11 +198,6 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.solutions-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .solutions-list {
