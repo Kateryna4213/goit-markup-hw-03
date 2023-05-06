@@ -60,8 +60,8 @@ button {
 /* header */
 
 .page-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   border-bottom: 1px solid var(--secondary-accent-color);
   background: var(--backgound-cards-color);
 }
@@ -73,16 +73,18 @@ button {
 
 .page-navigation {
   display: flex;
-  column-gap: 76px;
+  /* column-gap: 76px; */
+  align-items: center;
 }
 .nav {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .main-adress > ul {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .main-adress {
@@ -128,11 +130,13 @@ button {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  display: flex;
+  display: inline-block;
   align-items: center;
+  margin-bottom: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
+  margin-right: 76px;
 }
 
 .logo-black {
@@ -168,11 +172,13 @@ button {
   text-align: center;
   display: block;
   margin: 48px auto 0 auto;
+  border: none;
   border: 1px solid #000000;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
+  height: 56px;
 }
 
 .main-button:hover,
@@ -217,6 +223,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color-theme-light);
+  margin-bottom: 8px;
 }
 .list-description {
   font-weight: 400;
@@ -251,14 +258,14 @@ button {
 .activities-list {
   display: flex;
   flex-direction: row;
-  column-gap: 24px;
+  gap: 24px;
   flex-basis: calc((100% - 48px) / 3);
 }
 
 /* The forth section */
 .team-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
   flex-basis: calc(100%-72px) / 4;
 }
 .card-description-page-first {
@@ -267,7 +274,7 @@ button {
 }
 
 .third-title {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-list-item {
@@ -297,7 +304,6 @@ button {
   letter-spacing: 0.02em;
   color: var(--secondary-text-color-theme-dark);
   max-width: 264px;
-  margin-top: 16px;
 }
 
 /* PAGE PORTFOLIO  */
@@ -312,7 +318,7 @@ button {
   margin-bottom: 72px;
   justify-content: center;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .offers-btn {
@@ -331,10 +337,11 @@ button {
 .offers-btn:hover,
 .offers-btn:focus {
   background: var(--hover-state-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  border-radius: 4px; */
   color: var(--primary-text-color-theme-dark);
+  border: 1px solid transparent;
 }
 .offers-list-item {
   background: var(--backgound-cards-color);
@@ -351,7 +358,6 @@ button {
   flex-basis: calc((100% - 48px) / 3);
 }
 .card-description-page-sec {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
