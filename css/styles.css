@@ -79,6 +79,8 @@ button {
 .nav {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .main-adress > ul {
@@ -139,8 +141,8 @@ button {
   margin-right: 76px;
 }
 .logo-header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   margin-bottom: 0;
 }
 
